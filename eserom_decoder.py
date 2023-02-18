@@ -60,6 +60,5 @@ def decode_eserom(eserom):
 
 
 if __name__ == "__main__":
-    print("Eserom Decoder")
     eserom = input("Input Eserom String:")
     print(decode_eserom(eserom))
